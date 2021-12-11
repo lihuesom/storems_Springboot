@@ -1,0 +1,18 @@
+server:
+    port: 8081
+spring:
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+#        database-platform: org.hibernate.dialect.MySQLDialect
+        open-in-view: false
+        hibernate:
+            ddl-auto: create
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/pp_store
+        username: postgres
+        password: Misiontic2022++
+#        driver-class-name: org.postgresql.Driver
+#        url: jdbc:postgres://sflqermgprzyvl:4dac735811355851dc620655cb40bdaaa1bee155678486798dfe6de22c2b989c@ec2-3-95-130-249.compute-1.amazonaws.com:5432/d8u27b5jg7u0l
+#        username: sflqermgprzyvl
+#        password: 4dac735811355851dc620655cb40bdaaa1bee155678486798dfe6de22c2b989c
