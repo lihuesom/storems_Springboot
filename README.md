@@ -1,5 +1,5 @@
 # storems_Springboot
-# Mision Tic 2022 - Cilo 4 (Microservicios)
+# Mision Tic 2022 - Ciclo 4 (Microservicios)
 
 _Se presenta un microservicio, para el proyecto Store - Team 4 Grupo 65_
 
